@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "778132325249",
+    "project_id": "pushtestapp-1df3b",
+    "storage_bucket": "pushtestapp-1df3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778132325249:android:02198a79cc64533f67de80",
+        "android_client_info": {
+          "package_name": "com.jecko.pushtestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778132325249-ip4he6frnvr86p8tilvam9f26nqic83l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnZvqOo105wsScj8zpTuAPmhG5uf1OKjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778132325249-ip4he6frnvr86p8tilvam9f26nqic83l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
