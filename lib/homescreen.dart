@@ -17,11 +17,15 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void initPlatformState() {
-    OneSignal.shared.setLogLevel(OSLogLevel.debug, OSLogLevel.none);
+    //OneSignal.shared.setLogLevel(OSLogLevel.debug, OSLogLevel.none);
     OneSignal.shared.setAppId('19a211d2-e82c-4ed7-975d-a3fade2c4e03');
     OneSignal.shared
         .promptUserForPushNotificationPermission()
         .then((accepted) {});
+    OneSignal.shared.setNotificationWillShowInForegroundHandler(
+        (OSNotificationReceivedEvent event) {
+      //print('Event Triggered${event.notification.title}');
+    });
   }
 
   @override
